@@ -9,7 +9,7 @@
   "dependencies": {
     "react-native-circular-slider": "file:../..",
     "react": "15.4.1",
-    "react-native": "0.39.2",
+    "react-native": "0.64.1",
     "react-native-svg": ">=4.3.3"
   },
   "devDependencies": {
