@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - react-native > connect > connect-timeout > debug:
+        patched: '2021-08-03T22:12:54.054Z'
+  'npm:ms:20170412':
+    - react-native > connect > connect-timeout > ms:
+        patched: '2021-08-03T22:12:54.054Z'
+    - react-native > connect > connect-timeout > debug > ms:
+        patched: '2021-08-03T22:12:54.054Z'
