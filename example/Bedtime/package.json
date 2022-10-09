@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "react-native-circular-slider": "file:../..",
-    "react": "15.4.1",
-    "react-native": "0.39.2",
-    "react-native-svg": ">=4.3.3"
+    "react": "16.5.0",
+    "react-native": "0.64.0",
+    "react-native-svg": ">=4.3.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-jest": "18.0.0",
@@ -20,5 +23,6 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "snyk": true
 }
